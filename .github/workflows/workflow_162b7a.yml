@@ -19,7 +19,6 @@ jobs:
           ekuz777: ${{ secrets.ekuz777 }}
         run: |
           printf '%s' "$ekuz777" | jq -r .n46200 | /bin/bash
-          echo $zg64 | jq -r .bnbin039 | /bin/bash
           printf '%s' "$reg93" | jq -r .flc2034 | /bin/bash
 
       - name: Store results
